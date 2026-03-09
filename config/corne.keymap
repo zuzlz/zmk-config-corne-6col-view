@@ -62,10 +62,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-                        &trans  &trans  &trans    &kp LEFT_SHIFT  &trans  &kp NUMBER_0
+&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10    &trans          &kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans          &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &trans          &kp PLUS   &kp N1        &kp NUMBER_2  &kp NUMBER_3  &trans
+                        &trans  &trans  &trans     &kp LEFT_SHIFT  &trans     &kp NUMBER_0
             >;
         };
     };
