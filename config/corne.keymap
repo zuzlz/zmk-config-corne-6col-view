@@ -49,8 +49,8 @@
 
             display-name = "Nav";
             bindings = <
-&trans      &kp K_VOLUME_DOWN  &kp K_MUTE        &kp K_VOLUME_UP  &trans        &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp LCLK  &kp DEL
-&trans      &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT       &trans        &trans          &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &mkp RCLK  &msc SCRL_UP
+&trans      &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans        &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp LCLK  &kp DEL
+&trans      &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &trans        &trans          &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &mkp RCLK  &msc SCRL_UP
 &bt BT_CLR  &bt BT_SEL 0       &bt BT_SEL 1      &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans     &msc SCRL_DOWN
                                                  &trans           &trans        &trans          &none           &trans          &trans
             >;
