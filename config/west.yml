@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
-      name: nice-view-battery
+    - name: nice-view-battery
       remote: infely
       revision: v0.3
   self:
