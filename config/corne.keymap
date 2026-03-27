@@ -49,6 +49,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        c_tab {
+            bindings = <&kp TAB>;
+            key-positions = <1 2>;
+            require-prior-idle-ms = <150>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
