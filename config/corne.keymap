@@ -56,11 +56,14 @@
             bindings = <&kp TAB>;
             key-positions = <1 2>;
             require-prior-idle-ms = <150>;
+            layers = <0>;
         };
 
         capsword {
             bindings = <&caps_word>;
             key-positions = <14 21>;
+            layers = <0>;
+            require-prior-idle-ms = <150>;
         };
     };
 
